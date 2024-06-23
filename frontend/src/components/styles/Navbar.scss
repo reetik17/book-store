@@ -1,0 +1,33 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #081e37;
+  color: white;
+  padding: 10px 20px;
+  position: sticky;
+
+  .navbar-left {
+    display: flex;
+    align-items: center;
+
+    .appName {
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+  }
+
+  .navbar-right {
+    display: flex;
+    align-items: center;
+    .navLink {
+      color: white;
+      text-decoration: none;
+      margin-left: 20px;
+      font-size: 1rem;
+    }
+    .navLink:hover {
+      text-decoration: underline;
+    }
+  }
+}

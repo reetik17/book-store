@@ -1,0 +1,25 @@
+.home-container {
+  display: flex;
+  height: 100vh;
+  background: linear-gradient(
+      rgba(166, 129, 129, 0.7),
+      rgba(255, 255, 255, 0.7)
+    ),
+    url("../../../public/images/homePageBg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+  .homeContentWrapper {
+    text-align: center;
+    .app-name {
+      font-size: 50px;
+    }
+    .description {
+      font-size: 30px;
+      margin-bottom: 30px;
+      font-weight: 600;
+    }
+  }
+}
